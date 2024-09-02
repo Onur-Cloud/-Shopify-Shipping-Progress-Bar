@@ -25,9 +25,12 @@ This Shopify snippet provides a dynamic shipping progress bar that enhances the 
 
 ## Preview
 
-![Shipping Progress Bar Preview](https://i.ibb.co/zJCLm21/image.png)
+### Before Free Shipping Threshold is Met
+![Before Free Shipping](https://postimg.cc/JDp49B2y)
 
-![Shipping Progress Bar Preview](https://i.ibb.co/ZBcf4mR/image.png)
+### After Free Shipping Threshold is Met
+[image.png](https://postimg.cc/JDp49B2y)
+
 
 ## License
 
@@ -36,4 +39,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contributions
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
