@@ -12,7 +12,7 @@ This Shopify snippet provides a dynamic shipping progress bar that enhances the 
 
 ## Installation
 
-1. Copy the HTML, CSS, and JavaScript code provided in the `index.html` file.
+1. Copy the HTML, CSS, and JavaScript code provided in the `cart-drawer.liquid` file.
 2. Paste the code into your Shopify theme where you want the shipping progress bar to appear (e.g., in the cart or checkout page).
 3. Customize the threshold amount and shipping cost variables to match your store's requirements.
 
