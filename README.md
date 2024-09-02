@@ -1,5 +1,7 @@
 # Shopify Shipping Progress Bar
 
+# Shopify Shipping Progress Bar
+
 This Shopify snippet provides a dynamic shipping progress bar that enhances the user experience by visually indicating how close a customer is to achieving free shipping. The progress bar fills as the cart total increases, and a package icon at the end of the bar changes color once the free shipping threshold is reached. Additionally, when free shipping is achieved, the original shipping cost is crossed out, and a "0,00 €" in green is displayed next to it.
 
 ## Features
@@ -12,9 +14,22 @@ This Shopify snippet provides a dynamic shipping progress bar that enhances the 
 
 ## Installation
 
-1. Copy the HTML, CSS, and JavaScript code provided in the `cart-drawer.liquid` file.
-2. Paste the code into your Shopify theme where you want the shipping progress bar to appear (e.g., in the cart or checkout page).
-3. Customize the threshold amount and shipping cost variables to match your store's requirements.
+1. **Navigate to the Theme Code Editor:**
+   - In your Shopify Admin, go to `Online Store` > `Themes`.
+   - Click on `Actions` > `Edit code` to open the Theme Code Editor.
+
+2. **Find the Correct File:**
+   - In the Theme Code Editor, look for the `Snippets` folder.
+   - Open the relevant snippet file, typically named `cart-drawer.liquid` or something similar. If you're unsure of the file, you can use `Ctrl + F` (or `Cmd + F` on Mac) to search for the code.
+
+3. **Locate the Correct Position:**
+   - Search for `</cart-drawer-items>` in the file using `Ctrl + F`.
+   - Insert the provided code snippet directly **below** the `</cart-drawer-items>` line and **above** the `<div class="drawer__footer">` line.
+
+   ```
+   </cart-drawer-items>
+   <!-- Insert the Shipping Progress Bar code here -->
+   <div class="drawer__footer">
 
 ## Usage
 
