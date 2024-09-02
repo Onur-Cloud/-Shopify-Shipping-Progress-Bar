@@ -1,7 +1,5 @@
 # Shopify Shipping Progress Bar
 
-# Shopify Shipping Progress Bar
-
 This Shopify snippet provides a dynamic shipping progress bar that enhances the user experience by visually indicating how close a customer is to achieving free shipping. The progress bar fills as the cart total increases, and a package icon at the end of the bar changes color once the free shipping threshold is reached. Additionally, when free shipping is achieved, the original shipping cost is crossed out, and a "0,00 €" in green is displayed next to it.
 
 ## Features
